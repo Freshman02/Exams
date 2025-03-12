@@ -1,0 +1,19 @@
+BasedOnStyle: LLVM    # Visual Studio、LLVM、 Google、Chromium、Mozilla、WebKit、 Microsoft、GNU、none
+IndentWidth: 4    # 缩进宽度（空格数）：2，4
+TabWidth: 4    # Tab 等效的空格数：2，4
+UseTab: Never    # 是否使用 Tab 缩进：Never, ForIndentation, Always
+ColumnLimit: 0    # 每行最大字符数：80, 100, 0（无限制）
+BreakBeforeBraces: Attach   # 控制花括号的位置：Attach, Linux, Stroustrup, Allman, GNU
+PointerAlignment: Left    # 控制指针*位置：Left，Right，Middle
+AllowShortFunctionsOnASingleLine: true    # 单行函数是否允许：true，false
+# ShortFunctionBodies: true    # 如果函数体较小，是否将函数体内的代码放在同一行：true，false
+SpacesBeforeTrailingComments: 2    # 注释前的空格数量：2
+AlignTrailingComments: true    # 是否对齐尾随注释：true, false
+AlignConsecutiveAssignments: false   # 是否对齐连续的赋值语句：true, false
+AlwaysBreakAfterReturnType: None    # 返回类型换行规则：None, All, TopLevel
+AccessModifierOffset: -2  # 对于 public 等访问修饰符缩进 2 个空格
+AlwaysBreakTemplateDeclarations: false
+AllowShortBlocksOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
+
